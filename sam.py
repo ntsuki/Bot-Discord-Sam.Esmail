@@ -50,9 +50,9 @@ async def help(ctx):
 async def about(ctx):
     embed = discord.Embed(title="**About this bot :**",
     description="This bot is a little project who publish and react to commands, he can post, for now, randoms Mr.Robot Gifs, and others stuff.\n"
-                "Originally this bot was a learning python project, and he evolved to what the creator imagines.",
-    color=0xC63232)
-    embed.set_footer(text=f"Creator = Natsuki#4977")
+                "Originally this bot was a learning python project, and he evolved to what the creator imagines.\n", color=0xC63232)
+    embed.set_footer(text=f"Creator : Natsuki#4977 \n"
+                          f"Created in : 2021")
     await ctx.send(embed=embed)
 
 #Randomly take a mrRobot gif from pyfile
