@@ -40,7 +40,8 @@ async def help(ctx):
     embed = discord.Embed(title="Help commands :",
     description="**!mrRobot =** Send a random Mr Robot gif from a personnal data base.\n"
     "**!join =** To make me join your voice channel, dont forget to be on a channel. *[Only for admin]*\n"
-    "**!leave =** To make me leave the channel if i am in a channel. *[Only for admin]*",
+    "**!leave =** To make me leave the channel if i am in a channel. *[Only for admin]*"
+    "**!about =** To learn about the history of the Sam Esmail bot.",
     color=0xC63232)
     embed.set_footer(text=f"Last update : 27/11/2021")
     await ctx.send(embed=embed)
