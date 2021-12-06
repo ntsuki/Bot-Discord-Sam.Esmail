@@ -43,7 +43,7 @@ async def help(ctx):
     "**!leave =** To make me leave the channel if i am in a channel. *[Only for admin]*"
     "**!about =** To learn about the history of the Sam Esmail bot.",
     color=0xC63232)
-    embed.set_footer(text=f"Last update : 27/11/2021")
+    embed.set_footer(text=f"Last update : 06/12/2021")
     await ctx.send(embed=embed)
     
 #This command talk about the bot
